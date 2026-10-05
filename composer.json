@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/psr-simple-cache",
+    "description": "Tyhp type definitions for psr/simple-cache 3.0.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "3.0.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/psr-simple-cache-impl": "~3.0.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/psr-simple-cache-impl"
+        }
+    }
+}
